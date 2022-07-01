@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>270276111786-nma16igpvcan61d7soqqc5iv8j8bn4tv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.270276111786-nma16igpvcan61d7soqqc5iv8j8bn4tv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB6Rmxz9rSbV3q_3yQtBSzkOCSIMxyYf4k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>270276111786</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.coltenglover.College-Fantasy-Football</string>
+	<key>PROJECT_ID</key>
+	<string>college-fantasy-football</string>
+	<key>STORAGE_BUCKET</key>
+	<string>college-fantasy-football.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:270276111786:ios:e757d0df6df8257f3c0fd3</string>
+</dict>
+</plist>

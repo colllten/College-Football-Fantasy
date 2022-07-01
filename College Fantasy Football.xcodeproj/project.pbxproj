@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1983D901FE0C6B767952378 /* Pods_College_Fantasy_Football.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD17FA910D5F9B4DE5E5004 /* Pods_College_Fantasy_Football.framework */; };
+		D17F330F286FBDF40069DA13 /* College_Fantasy_FootballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */; };
+		D17F3311286FBDF40069DA13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F3310286FBDF40069DA13 /* ContentView.swift */; };
+		D17F3313286FBDF40069DA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17F3312286FBDF40069DA13 /* Assets.xcassets */; };
+		D17F3316286FBDF40069DA13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17F3315286FBDF40069DA13 /* Preview Assets.xcassets */; };
+		D17F331D286FBEC60069DA13 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = D17F331C286FBEC60069DA13 /* GoogleService-Info-2.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CBF634BD8E303B66F5658CD /* Pods-College Fantasy Football.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fantasy Football.debug.xcconfig"; path = "Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football.debug.xcconfig"; sourceTree = "<group>"; };
+		88FF7F20C7713EF5DA63C518 /* Pods-College Fantasy Football.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fantasy Football.release.xcconfig"; path = "Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football.release.xcconfig"; sourceTree = "<group>"; };
+		D17F330B286FBDF40069DA13 /* College Fantasy Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Fantasy Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Fantasy_FootballApp.swift; sourceTree = "<group>"; };
+		D17F3310286FBDF40069DA13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D17F3312286FBDF40069DA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D17F3315286FBDF40069DA13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D17F331C286FBEC60069DA13 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		EFD17FA910D5F9B4DE5E5004 /* Pods_College_Fantasy_Football.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_Fantasy_Football.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17F3308286FBDF40069DA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1983D901FE0C6B767952378 /* Pods_College_Fantasy_Football.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7995036D52B66B58F9F744C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF634BD8E303B66F5658CD /* Pods-College Fantasy Football.debug.xcconfig */,
+				88FF7F20C7713EF5DA63C518 /* Pods-College Fantasy Football.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9913C06431CED39A003B6CF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFD17FA910D5F9B4DE5E5004 /* Pods_College_Fantasy_Football.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D17F3302286FBDF40069DA13 = {
+			isa = PBXGroup;
+			children = (
+				D17F330D286FBDF40069DA13 /* College Fantasy Football */,
+				D17F330C286FBDF40069DA13 /* Products */,
+				7995036D52B66B58F9F744C4 /* Pods */,
+				9913C06431CED39A003B6CF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D17F330C286FBDF40069DA13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D17F330B286FBDF40069DA13 /* College Fantasy Football.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17F330D286FBDF40069DA13 /* College Fantasy Football */ = {
+			isa = PBXGroup;
+			children = (
+				D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */,
+				D17F3310286FBDF40069DA13 /* ContentView.swift */,
+				D17F3312286FBDF40069DA13 /* Assets.xcassets */,
+				D17F331C286FBEC60069DA13 /* GoogleService-Info-2.plist */,
+				D17F3314286FBDF40069DA13 /* Preview Content */,
+			);
+			path = "College Fantasy Football";
+			sourceTree = "<group>";
+		};
+		D17F3314286FBDF40069DA13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D17F3315286FBDF40069DA13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17F330A286FBDF40069DA13 /* College Fantasy Football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17F3319286FBDF40069DA13 /* Build configuration list for PBXNativeTarget "College Fantasy Football" */;
+			buildPhases = (
+				8C887897A07EA6EE485FA9F0 /* [CP] Check Pods Manifest.lock */,
+				D17F3307286FBDF40069DA13 /* Sources */,
+				D17F3308286FBDF40069DA13 /* Frameworks */,
+				D17F3309286FBDF40069DA13 /* Resources */,
+				91465458CA04A820393C4D2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "College Fantasy Football";
+			productName = "College Fantasy Football";
+			productReference = D17F330B286FBDF40069DA13 /* College Fantasy Football.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17F3303286FBDF40069DA13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D17F330A286FBDF40069DA13 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D17F3306286FBDF40069DA13 /* Build configuration list for PBXProject "College Fantasy Football" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D17F3302286FBDF40069DA13;
+			productRefGroup = D17F330C286FBDF40069DA13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17F330A286FBDF40069DA13 /* College Fantasy Football */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17F3309286FBDF40069DA13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F3316286FBDF40069DA13 /* Preview Assets.xcassets in Resources */,
+				D17F3313286FBDF40069DA13 /* Assets.xcassets in Resources */,
+				D17F331D286FBEC60069DA13 /* GoogleService-Info-2.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C887897A07EA6EE485FA9F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College Fantasy Football-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91465458CA04A820393C4D2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17F3307286FBDF40069DA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F3311286FBDF40069DA13 /* ContentView.swift in Sources */,
+				D17F330F286FBDF40069DA13 /* College_Fantasy_FootballApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D17F3317286FBDF40069DA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D17F3318286FBDF40069DA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17F331A286FBDF40069DA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBF634BD8E303B66F5658CD /* Pods-College Fantasy Football.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"College Fantasy Football/Preview Content\"";
+				DEVELOPMENT_TEAM = 95W4AVBLWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coltenglover.College-Fantasy-Football";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D17F331B286FBDF40069DA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FF7F20C7713EF5DA63C518 /* Pods-College Fantasy Football.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"College Fantasy Football/Preview Content\"";
+				DEVELOPMENT_TEAM = 95W4AVBLWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coltenglover.College-Fantasy-Football";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17F3306286FBDF40069DA13 /* Build configuration list for PBXProject "College Fantasy Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17F3317286FBDF40069DA13 /* Debug */,
+				D17F3318286FBDF40069DA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17F3319286FBDF40069DA13 /* Build configuration list for PBXNativeTarget "College Fantasy Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17F331A286FBDF40069DA13 /* Debug */,
+				D17F331B286FBDF40069DA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17F3303286FBDF40069DA13 /* Project object */;
+}
