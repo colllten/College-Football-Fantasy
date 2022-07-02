@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1983D901FE0C6B767952378 /* Pods_College_Fantasy_Football.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD17FA910D5F9B4DE5E5004 /* Pods_College_Fantasy_Football.framework */; };
 		D17F330F286FBDF40069DA13 /* College_Fantasy_FootballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */; };
-		D17F3311286FBDF40069DA13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F3310286FBDF40069DA13 /* ContentView.swift */; };
+		D17F3311286FBDF40069DA13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F3310286FBDF40069DA13 /* LoginView.swift */; };
 		D17F3313286FBDF40069DA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17F3312286FBDF40069DA13 /* Assets.xcassets */; };
 		D17F3316286FBDF40069DA13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17F3315286FBDF40069DA13 /* Preview Assets.xcassets */; };
 		D17F331D286FBEC60069DA13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D17F331C286FBEC60069DA13 /* GoogleService-Info.plist */; };
@@ -20,7 +20,7 @@
 		88FF7F20C7713EF5DA63C518 /* Pods-College Fantasy Football.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fantasy Football.release.xcconfig"; path = "Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football.release.xcconfig"; sourceTree = "<group>"; };
 		D17F330B286FBDF40069DA13 /* College Fantasy Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Fantasy Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Fantasy_FootballApp.swift; sourceTree = "<group>"; };
-		D17F3310286FBDF40069DA13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D17F3310286FBDF40069DA13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D17F3312286FBDF40069DA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17F3315286FBDF40069DA13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D17F331C286FBEC60069DA13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */,
-				D17F3310286FBDF40069DA13 /* ContentView.swift */,
+				D17F3310286FBDF40069DA13 /* LoginView.swift */,
 				D17F3312286FBDF40069DA13 /* Assets.xcassets */,
 				D17F331C286FBEC60069DA13 /* GoogleService-Info.plist */,
 				D17F3314286FBDF40069DA13 /* Preview Content */,
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17F3311286FBDF40069DA13 /* ContentView.swift in Sources */,
+				D17F3311286FBDF40069DA13 /* LoginView.swift in Sources */,
 				D17F330F286FBDF40069DA13 /* College_Fantasy_FootballApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
