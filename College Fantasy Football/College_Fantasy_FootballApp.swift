@@ -28,10 +28,7 @@ struct YourApp: App {
     var body: some Scene {
         WindowGroup {
             let viewModel = AppViewModel()
-            NavigationView {
-                LoginView()
-                    .environmentObject(viewModel)
-            }
+            ContentView().environmentObject(viewModel)
         }
     }
 }
