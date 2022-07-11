@@ -9,11 +9,19 @@ import Foundation
 import FirebaseAuth
 
 class AppViewModel: ObservableObject {
-    
-    @Published var signedIn = false
+
+    @Published var signedIn = UserDefaults.standard.bool(forKey: "isSignedIn")
     
     var isSignedIn: Bool {
-        return Auth.auth().currentUser != nil
+        if (Auth.auth().currentUser != nil) {
+            UserDefaults.standard.set(true, forKey: "isSignedIn")
+            signedIn = UserDefaults.standard.bool(forKey: "isSignedIn")
+            UserDefaults.standard.set(Auth.auth().currentUser?.email, forKey: "userEmail")
+            return UserDefaults.standard.bool(forKey: "isSignedIn")
+        } else {
+            UserDefaults.standard.set(false, forKey: "isSignedIn")
+            return false
+        }
     }
     
     func signIn(email: String, password: String) {
@@ -23,7 +31,9 @@ class AppViewModel: ObservableObject {
             }
             
             DispatchQueue.main.async {
-                self.signedIn = true
+                UserDefaults.standard.set(true, forKey: "isSignedIn")
+                UserDefaults.standard.set(Auth.auth().currentUser?.email, forKey: "userEmail")
+                self.signedIn = UserDefaults.standard.bool(forKey: "isSignedIn")
             }
         }
     }
@@ -34,13 +44,20 @@ class AppViewModel: ObservableObject {
                 return
             }
             DispatchQueue.main.async {
-                self.signedIn = true
+                UserDefaults.standard.set(true, forKey: "isSignedIn")
+                UserDefaults.standard.set(self.fetchEmail, forKey: "userEmail")
+                self.signedIn = UserDefaults.standard.bool(forKey: "isSignedIn")
             }
         }
     }
     
     func signOut() {
         try? Auth.auth().signOut()
-        self.signedIn = false
+        UserDefaults.standard.set(false, forKey: "isSignedIn")
+        signedIn = UserDefaults.standard.bool(forKey: "isSignedIn")
+    }
+    
+    func fetchEmail() -> String {
+        return Auth.auth().currentUser?.email ?? "N/A"
     }
 }

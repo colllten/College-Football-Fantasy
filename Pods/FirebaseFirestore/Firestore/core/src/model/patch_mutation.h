@@ -73,6 +73,14 @@ class PatchMutation : public Mutation {
     return patch_rep().value();
   }
 
+  /**
+   * Returns the mask to apply to value(), where only fields that are in both
+   * the field_mask and the value will be updated.
+   */
+  const FieldMask& mask() const {
+    return patch_rep().mask();
+  }
+
  private:
   class Rep : public Mutation::Rep {
    public:
@@ -88,6 +96,10 @@ class PatchMutation : public Mutation {
 
     const ObjectValue& value() const {
       return value_;
+    }
+
+    const FieldMask& mask() const {
+      return mask_;
     }
 
     /**
@@ -113,6 +125,7 @@ class PatchMutation : public Mutation {
 
    private:
     ObjectValue value_;
+    FieldMask mask_;
   };
 
   const Rep& patch_rep() const {

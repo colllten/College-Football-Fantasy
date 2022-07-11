@@ -9,23 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: AppViewModel
+    @EnvironmentObject var user: User
     
     var body: some View {
         NavigationView {
             if viewModel.signedIn {
-                VStack {
-                    Text("You are signed in")
-                    Button {
-                        viewModel.signOut()
-                    } label: {
-                        Text("Sign Out")
-                            .frame(width: 250, height: 50, alignment: .center)
-                            .cornerRadius(10)
-                            .font(.title)
-                            .background(.red)
-                            .foregroundColor(.white)
-                    }
-                }
+                HomeView()
             } else {
                 LoginView()
             }

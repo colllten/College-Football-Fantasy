@@ -28,7 +28,10 @@ struct YourApp: App {
     var body: some Scene {
         WindowGroup {
             let viewModel = AppViewModel()
-            ContentView().environmentObject(viewModel)
+            let user = User.init(firstName: "User", lastName: "User", email: "UserEmail")
+            ContentView()
+                .environmentObject(viewModel)
+                .environmentObject(user)
         }
     }
 }

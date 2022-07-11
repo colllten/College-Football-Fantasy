@@ -7,8 +7,19 @@
 
 import Foundation
 
-struct User {
-    let firstName: String
-    let lastName: String
-    let age: Int
+class User: ObservableObject {
+    
+    @Published var firstName: String
+    @Published var lastName: String
+    @Published var email: String
+    
+    func setEmail(email: String) {
+        self.email = email
+    }
+    
+    init(firstName: String, lastName: String, email: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+    }
 }

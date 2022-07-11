@@ -6,6 +6,6 @@ target 'College Fantasy Football' do
   use_frameworks!
 
   # Pods for College Fantasy Football
-  pod 'FirebaseAuth'
-  pod 'FirebaseFirestore'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 end

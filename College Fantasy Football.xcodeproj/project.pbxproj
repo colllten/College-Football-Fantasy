@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1983D901FE0C6B767952378 /* Pods_College_Fantasy_Football.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD17FA910D5F9B4DE5E5004 /* Pods_College_Fantasy_Football.framework */; };
+		D1242CDC28735CB4000A7DD4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1242CDB28735CB4000A7DD4 /* HomeView.swift */; };
 		D17E7FA72870798A00D81E3A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17E7FA62870798A00D81E3A /* User.swift */; };
 		D17E7FAC2870EEA900D81E3A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17E7FAB2870EEA900D81E3A /* LoginView.swift */; };
 		D17F330F286FBDF40069DA13 /* College_Fantasy_FootballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		2CBF634BD8E303B66F5658CD /* Pods-College Fantasy Football.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fantasy Football.debug.xcconfig"; path = "Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football.debug.xcconfig"; sourceTree = "<group>"; };
 		88FF7F20C7713EF5DA63C518 /* Pods-College Fantasy Football.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fantasy Football.release.xcconfig"; path = "Target Support Files/Pods-College Fantasy Football/Pods-College Fantasy Football.release.xcconfig"; sourceTree = "<group>"; };
+		D1242CDB28735CB4000A7DD4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D17E7FA62870798A00D81E3A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D17E7FAB2870EEA900D81E3A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D17F330B286FBDF40069DA13 /* College Fantasy Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Fantasy Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +30,7 @@
 		D17F3315286FBDF40069DA13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D17F331C286FBEC60069DA13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D1A199D92871034C00AA3693 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		D1BBD0E02873A57E00B69723 /* College-Fantasy-Football-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "College-Fantasy-Football-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EFD17FA910D5F9B4DE5E5004 /* Pods_College_Fantasy_Football.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_Fantasy_Football.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				D17E7FAB2870EEA900D81E3A /* LoginView.swift */,
+				D1242CDB28735CB4000A7DD4 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +102,7 @@
 		D17F330D286FBDF40069DA13 /* College Fantasy Football */ = {
 			isa = PBXGroup;
 			children = (
+				D1BBD0E02873A57E00B69723 /* College-Fantasy-Football-Info.plist */,
 				D17F330E286FBDF40069DA13 /* College_Fantasy_FootballApp.swift */,
 				D17E7FA52870796100D81E3A /* Model */,
 				D17E7FA828707D5B00D81E3A /* View */,
@@ -234,6 +239,7 @@
 				D17E7FAC2870EEA900D81E3A /* LoginView.swift in Sources */,
 				D17F330F286FBDF40069DA13 /* College_Fantasy_FootballApp.swift in Sources */,
 				D1A199DA2871034C00AA3693 /* AppViewModel.swift in Sources */,
+				D1242CDC28735CB4000A7DD4 /* HomeView.swift in Sources */,
 				D17E7FA72870798A00D81E3A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,9 +373,11 @@
 				DEVELOPMENT_TEAM = 95W4AVBLWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College-Fantasy-Football-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,7 +389,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -397,9 +405,11 @@
 				DEVELOPMENT_TEAM = 95W4AVBLWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College-Fantasy-Football-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,7 +421,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
